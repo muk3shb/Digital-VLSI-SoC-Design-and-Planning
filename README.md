@@ -12,5 +12,5 @@ The block diagram highliths the center of board, which is the processor and alon
   2. ADC
   3. I2C
   4. QSPI1 - Flash
-  5. 5. JTAG- uART
+  5. JTAG- UART
 we have SDRAM chip which is external chip, not On chip
