@@ -22,14 +22,13 @@ When we open up the IC, We see a package(i.e chip in outside world).
 ![4](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/5d7be4ad-38a8-4250-bae3-069afea13e86)
 Packages have names like  QFN-48, Where QFN means "Quad Flat No Leads", There are sevral packages that can be found in Internet.
 If We have QFN-256 than 256 represents the no.of pins in package.
+The chip Size of QFN-48 is 7nm x 7nm (i.e lenth x breadth) and  manufactured my germany xfab. 
 The pin  location of this package are all driven by arduino board. 
 
-The chip Size of QFN-48 is 7nm x 7nm (i.e lenth x breadth) and  manufactured my germany xfab. 
 ![5](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/6573b1d8-ebe6-41c1-ba73-e90078910dcf)
-
 The chip sits at the center of package.
 ![6](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/e508c742-b532-4d04-a535-62658561c67e)
 
 The chip is connected to package and the way it is connected is teremed as "Wire point".
-Wire points connect to the boundry of chip "we can transmitt all the data from outside world inside the chip using this.
+Wire points connect to the boundry of chip we can transmitt all the data from outside world inside the chip using this.
  	   
