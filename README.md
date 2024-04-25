@@ -85,14 +85,30 @@ this rtl implement this specification and finally rtl to layout is obtained, thi
     a. THe code written in programming language feeds to compiler, the compiler than converts that code into instruction format of specific hardware requirements, we have various insruction format for various hardware IP's like for ARM, Intelx86 etc. In this course we have instruction format of RISC-V core, the compiler functions to convert according to those format and genrate the instructions in .exe file which is crucial part.
     b. Next the intruction words are fetched by assembler where it converts each individual set of instruction into a binary language and this binary words are then fed to Hardware for there function.
 
- Here the ouput of compiler is in RISC-V instructon format and the output of assembler will be the binary number which enters into hardware and accordingly the functions are perfomed
-       ![image](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/45da0072-c8c0-43b9-b9d2-63707ffba784)
-    
-![image](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/ca51b5b6-a881-478c-b3be-6bf7a72c3a48)
+
+For Example: "Stopwatch APP"
+
+![image](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/6962f07c-582d-403a-a235-043a4d9cca75)
+
+ 1. Input to compiler is C program written for Stopwatch Application
+ 2. This program is fed to compiler where the ouput of compiler is in RISC-V instructon format, so compiler turn the c program code to instruction format. In the Picture shown below the left side is Stopwatch application program in "C" Images right ot it are the outputs of compiler which is RISC-V ISA.
+![image](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/db3bea62-07e0-4f30-8a8c-d1c73bde9737)
+
+3. The assembler converts those instructions into binary language and the binary words which enters into hardware(i.e chip layout) executes the stop watch application.
+
+In our Course we are focused enirely upon RISC-V Instructions.
+![image](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/dbda2470-c75f-4801-9fb4-16638c18637b)
+
+![image](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/731243d5-c774-43ff-a723-b9ebd5ce764a)
+This RISC-V Instruction are called as RISC-V ISA, which act as a "Interface" between Computer program and Hardware.
+
+![image](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/f0932001-2ffc-49e9-888a-d27593450910)
+
+![image](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/f8095e38-6d6c-49c8-8c0a-b152364e4019)
 
 
- 3. Compiler
- 4. Assembler
+ 4. Compiler
+ 5. Assembler
     
 
  
