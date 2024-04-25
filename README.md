@@ -54,6 +54,8 @@ How ? - Foundry provides some interface files, with those files we communicate t
 We also have other block that is
 ![11](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/2102d2cc-90a6-4d0d-8f28-2adb2fc4580e)
 Macros are Pure Digital blocks, While IP have some amount of intellegent techniques to build those blocks.
+![image](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/4b98bc51-0468-434f-a55b-7c84fa3d6ac2)
+
 
 
 
