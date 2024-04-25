@@ -30,4 +30,31 @@ The chip sits at the center of package.
 
 The chip is connected to package and the way it is connected is teremed as "Wire point".
 Wire points connect to the boundry of chip we can transmitt all the data from outside world inside the chip using this.
- 	   
+ON OPENING UP THE CHIP We look inside the chip of the processor.
+![7](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/87a19745-9959-4113-84fa-0680e35e9920)
+![8](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/da6c9e24-3d4b-4933-ac24-7d52746de73d)
+This Chip contains 
+1. Pads -
+   a. you can send signal inside the chip, for ex. like a door from where people go inside and outside.
+   b. Any signal can go inside the chip or outside of chip via Pads.
+
+2. Core -
+   a. Core is an area where Digital logic blocks are placed  (i.e AND, NAND, MUX etc.)
+
+3. Die - Die is the size of entire chip, remember it not the size of the processor but the size of the chip.
+
+Now, If we take a sample SoC Design here,
+![9](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/6a2d1536-5246-4823-a047-855bf2cef5c1)
+
+We see diffrent SoC blocks.
+![10](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/011b366c-3d07-4aba-b8df-c54ed8aaf658)
+Like PLL,ADC,DAC,SRAM. This block are called a Foundry.
+Foundry - All devices depends on foundry, Basically Foundry is a Big factory that has various sets of machine, where chips are manufactured, To design the chip we have to communicate continuously with foundry,
+How ? - Foundry provides some interface files, with those files we communicate to foundry this set of files are intellegent documents, which has unique information.
+We also have other block that is
+![11](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/2102d2cc-90a6-4d0d-8f28-2adb2fc4580e)
+Macros are Pure Digital blocks, While IP have some amount of intellegent techniques to build those blocks.
+
+
+
+  
