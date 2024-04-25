@@ -70,8 +70,8 @@ for example;- if we want to swap two number the proceess goes as per the flow st
 
 there is another interface 
 ![image](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/4b98bc51-0468-434f-a55b-7c84fa3d6ac2)
-that must be present between the risc v and layout is HDL so we need to create risc v specs with some RTL in ths case it is picorv32
-this rtl implement this specification and finally rtl to layout its nothing but standard pnr rtl to gds flow, at the end from user point of view we execute swap program
+that must be present between the risc v and layout is Hardware description language (HDL) so we need to create risc v specifications with some RTL, in ths case it is picorv32
+this rtl implement this specification and finally rtl to layout is obtained, this is nothing but standard pnr - rtl to gds flow, finally at the end from user point of view we execute swap program.
  
 
 
