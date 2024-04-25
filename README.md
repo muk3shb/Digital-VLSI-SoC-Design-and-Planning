@@ -111,8 +111,22 @@ In the RISC-V Design, The compiler converts the C- program to RISC-V ISA, These 
 
 ![image](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/8a6508e0-8950-42ff-8c2b-6c0904e48409)
 
+# SKY130_D1_SK2 - SoC design and OpenLANE
+# SKY_L1 - Introduction to all components of open-source Digital ASIC design
 
- 
+Designing Digital ASIC design must have three components from begining, these are
+1. RTL Design
+2. EDA Tools
+3. PDK data
+![image](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/8b68e6d3-6110-4028-954b-1c2f43262e87)
+We have various open source tool avilable since a decade but before that it was just a though to automate the ASIC design flow.
+For RTL we have - github.com etc
+For EDA tools we have - OpenROAD, openLANE etc.
+![image](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/a602c6cb-2c0d-4853-a635-5ead6a835bdb)
+PDK : 
+ ![image](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/db047c1d-eb92-4a5b-a92d-4eb78488ed06)
+![image](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/85c673d9-e03f-4bbb-a8d4-7344051846ba)
+
     
 
  
