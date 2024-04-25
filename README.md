@@ -78,8 +78,22 @@ this rtl implement this specification and finally rtl to layout is obtained, thi
  ![image](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/c4b05e1d-ee53-4b51-aede-d729990dbba6)
  So we have System software for this purpose which takes the application software code and converts that code to binary language for hardware. 
  ![image](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/0a47c712-4967-4869-a636-8a05a15b0c21)
- The flow of system software is:
- 
+ The Various components of system software are:
+ 1. Operating system - Operating sysytem Handels i/o operations, memory, low level system function apart from this it converts the software application to assembly language program,
+
+    Operating system works in following flow:
+    a. THe code written in programming language feeds to compiler, the compiler than converts that code into instruction format of specific hardware requirements, we have various insruction format for various hardware IP's like for ARM, Intelx86 etc. In this course we have instruction format of RISC-V core, the compiler functions to convert according to those format and genrate the instructions in .exe file which is crucial part.
+    b. Next the intruction words are fetched by assembler where it converts each individual set of instruction into a binary language and this binary words are then fed to Hardware for there function.
+
+ Here the ouput of compiler is in RISC-V instructon format and the output of assembler will be the binary number which enters into hardware and accordingly the functions are perfomed
+       ![image](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/45da0072-c8c0-43b9-b9d2-63707ffba784)
+    
+![image](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/ca51b5b6-a881-478c-b3be-6bf7a72c3a48)
+
+
+ 3. Compiler
+ 4. Assembler
+    
 
  
 
