@@ -1,7 +1,7 @@
 # Digital-VLSI-SoC-Design-and-Planning
 # Sky130-Day-1 - Inception of open-source EDA, OpenLANE and Sky130 PDK (24/04/2024 - 25/04/2024)
 # How to talk to computers
-# Skt130-D1-L1 - Introduction to QFN-48 Package, chip, pads, core, die and IPs
+# Skt130-D1-SK1 - Introduction to QFN-48 Package, chip, pads, core, die and IPs
 ![1](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/6d0e847e-ccca-4321-b861-dd0b68bc331a)
 
 The field that we are talking about is inside this chip.
