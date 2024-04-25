@@ -94,7 +94,7 @@ For Example: "Stopwatch APP"
 ![image](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/6962f07c-582d-403a-a235-043a4d9cca75)
 
  1. Input to compiler is C program written for Stopwatch Application
- 2. This program is fed to compiler where the ouput of compiler is in RISC-V instructon format, so compiler turn the c program code to instruction format. In the Picture shown below the left side is Stopwatch application program in "C" Images right ot it are the outputs of compiler which is RISC-V ISA.
+ 2. This program is fed to compiler where the ouput of compiler is in RISC-V instructon format, so compiler turn the c program code to instruction format. In the Picture shown below the left side is Stopwatch application program in "C" Images right of it are the outputs of compiler which is RISC-V ISA.
 ![image](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/db3bea62-07e0-4f30-8a8c-d1c73bde9737)
 
 3. The assembler converts those instructions into binary language and the binary words which enters into hardware(i.e chip layout) executes the stop watch application.
