@@ -99,7 +99,7 @@ For Example: "Stopwatch APP"
 
 3. The assembler converts those instructions into binary language and the binary words which enters into hardware(i.e chip layout) executes the stop watch application.
 
-In our Course we are focused enirely upon RISC-V Instructions.
+In our Course we are focused enirely upon RISC-V Instructions. The encircled part are the RISC-V Instructions.
 ![image](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/dbda2470-c75f-4801-9fb4-16638c18637b)
 
 ![image](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/731243d5-c774-43ff-a723-b9ebd5ce764a)
