@@ -55,7 +55,7 @@ We also have other block that is
 ![11](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/2102d2cc-90a6-4d0d-8f28-2adb2fc4580e)
 Macros are Pure Digital blocks, While IP have some amount of intellegent techniques to build those blocks.
 
-#Introduction to RISC-V
+# Introduction to RISC-V
 ![13](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/99602620-9c1a-4e0e-916c-1a0dc82ac8d2)
 
 Instruction Set Archietecture(ISA)- Language of computer, The wa in which, we are going to talk to the computer, 
