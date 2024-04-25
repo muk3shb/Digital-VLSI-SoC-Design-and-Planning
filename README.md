@@ -13,8 +13,7 @@ The block diagram highliths the center of board, which is the processor and alon
   3. I2C
   4. QSPI1 - Flash
   5. JTAG- UART.
-
-we have SDRAM chip which is external chip, not On chip.
+  6. we have SDRAM chip which is external chip, not On chip.
 
 ![3](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/b90f96d7-43b6-48cf-9c94-29c84cfe746e)
 
