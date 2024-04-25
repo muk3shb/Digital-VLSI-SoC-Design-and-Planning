@@ -72,6 +72,17 @@ there is another interface
 ![image](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/4b98bc51-0468-434f-a55b-7c84fa3d6ac2)
 that must be present between the risc v and layout is Hardware description language (HDL) so we need to create risc v specifications with some RTL, in ths case it is picorv32
 this rtl implement this specification and finally rtl to layout is obtained, this is nothing but standard pnr - rtl to gds flow, finally at the end from user point of view we execute swap program.
+
+ # SKY_L3- From Software application to Hardware
+ We have some Application softwares that needs to be run on our hardware which is chip present on laptop.
+ ![image](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/c4b05e1d-ee53-4b51-aede-d729990dbba6)
+ So we have System software for this purpose which takes the application software code and converts that code to binary language for hardware. 
+ ![image](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/0a47c712-4967-4869-a636-8a05a15b0c21)
+ The flow of system software is:
+ 
+
+ 
+
  
 
 
