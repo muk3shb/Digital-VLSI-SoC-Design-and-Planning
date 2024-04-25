@@ -55,9 +55,26 @@ We also have other block that is
 ![11](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/2102d2cc-90a6-4d0d-8f28-2adb2fc4580e)
 Macros are Pure Digital blocks, While IP have some amount of intellegent techniques to build those blocks.
 
+#Introduction to RISC-V
 ![13](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/99602620-9c1a-4e0e-916c-1a0dc82ac8d2)
 
+Instruction Set Archietecture(ISA)- Language of computer, The wa in which, we are going to talk to the computer, 
+
+if you have c program which has to run on hardware which got a specific layout, layout here is interior of chip present on laptop, we need to pass info to particular hardware, for this we will follow the following steps
+1. first compile the program to assemblly language program
+2. from assembly labguage program to binary code format
+   currently in the program we have hex formaat in real world it must converted to binary format.
+  and finally, this bits executed in this particular layout and we get the desired output.
+
+for example;- if we want to swap two number the proceess goes as per the flow stated above and finally bits get into layout and we get the required output.
+
+there is another interface 
 ![image](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/4b98bc51-0468-434f-a55b-7c84fa3d6ac2)
+that must be present between the risc v and layout is HDL so we need to create risc v specs with some RTL in ths case it is picorv32
+this rtl implement this specification and finally rtl to layout its nothing but standard pnr rtl to gds flow, at the end from user point of view we execute swap program
+ 
+
+
 
 
 
