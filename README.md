@@ -79,11 +79,14 @@ this rtl implement this specification and finally rtl to layout is obtained, thi
  So we have System software for this purpose which takes the application software code and converts that code to binary language for hardware. 
  ![image](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/0a47c712-4967-4869-a636-8a05a15b0c21)
  The Various components of system software are:
- 1. Operating system - Operating sysytem Handels i/o operations, memory, low level system function apart from this it converts the software application to assembly language program,
+ 1. Operating system
+ 2. Compiler
+ 3. Assembler
+ 
+Operating sysytem Handels i/o operations, memory, low level system function apart from this it converts the software application to assembly language program,
 
-    Operating system works in following flow:
-    a. THe code written in programming language feeds to compiler, the compiler than converts that code into instruction format of specific hardware requirements, we have various insruction format for various hardware IP's like for ARM, Intelx86 etc. In this course we have instruction format of RISC-V core, the compiler functions to convert according to those format and genrate the instructions in .exe file which is crucial part.
-    b. Next the intruction words are fetched by assembler where it converts each individual set of instruction into a binary language and this binary words are then fed to Hardware for there function.
+Operating system works in following flow:
+    The code written in programming language feeds to compiler, the compiler than converts that code into instruction format of specific hardware requirements, we have various insruction format for various hardware IP's like for ARM, Intelx86 etc. In this course we have instruction format of RISC-V core, the compiler functions to convert according to those format and genrate the instructions in .exe file which is crucial part Next, the intruction words are fetched by assembler where it converts each individual set of instruction into a binary language and this binary words are then fed to Hardware for there function.
 
 
 For Example: "Stopwatch APP"
@@ -104,11 +107,12 @@ This RISC-V Instruction are called as RISC-V ISA, which act as a "Interface" bet
 
 ![image](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/f0932001-2ffc-49e9-888a-d27593450910)
 
-![image](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/f8095e38-6d6c-49c8-8c0a-b152364e4019)
+In the RISC-V Design, The compiler converts the C- program to RISC-V ISA, These Instruction words are then converted to Binary language by going through a set of design flow that is, we use HDL to Genrate the RTL of RISC-V ISA, the code that are written in HDL implements the function of RISC-V than the RTL is synthesized to gate level design and finally netlists are generted for PD.
+
+![image](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/8a6508e0-8950-42ff-8c2b-6c0904e48409)
 
 
- 4. Compiler
- 5. Assembler
+ 
     
 
  
