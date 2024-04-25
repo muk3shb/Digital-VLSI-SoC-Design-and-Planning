@@ -1,7 +1,7 @@
 # Digital-VLSI-SoC-Design-and-Planning
 # Sky130-Day-1 - Inception of open-source EDA, OpenLANE and Sky130 PDK (24/04/2024 - 25/04/2024)
-# How to talk to computers
-# Sky130-D1-SK1 - Introduction to QFN-48 Package, chip, pads, core, die and IPs
+# Sky130-D1-SK1How to talk to computers
+# SKY_L1 - Introduction to QFN-48 Package, chip, pads, core, die and IPs
 ![1](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/6d0e847e-ccca-4321-b861-dd0b68bc331a)
 
 The field that we are talking about is inside this chip.
@@ -55,7 +55,7 @@ We also have other block that is
 ![11](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/2102d2cc-90a6-4d0d-8f28-2adb2fc4580e)
 Macros are Pure Digital blocks, While IP have some amount of intellegent techniques to build those blocks.
 
-# Introduction to RISC-V
+# SKY_L2- Introduction to RISC-V
 ![13](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/99602620-9c1a-4e0e-916c-1a0dc82ac8d2)
 
 Instruction Set Archietecture(ISA)- Language of computer, The wa in which, we are going to talk to the computer, 
