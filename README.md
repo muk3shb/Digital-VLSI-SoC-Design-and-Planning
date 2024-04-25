@@ -1,2 +1,4 @@
 # Digital-VLSI-SoC-Design-and-Planning
-Workshop Repo On "VLSI SoC Design and Planning - using  Google SkyWater 130nm PDK and Open lane" organized by VSD in collaboration with NASSCOM Future skill and MeitY, India.
+# Sky130-Day-1 - Inception of open-source EDA, OpenLANE and Sky130 PDK (24/04/2024 - 25/04/2024)
+# How to talk to computer
+# Day_1_L1 - Introduction to QFN-48 Package, chip, pads, core, die and IPs
