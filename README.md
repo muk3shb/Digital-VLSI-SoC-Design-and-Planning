@@ -119,13 +119,23 @@ Designing Digital ASIC design must have three components from begining, these ar
 2. EDA Tools
 3. PDK data
 ![image](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/8b68e6d3-6110-4028-954b-1c2f43262e87)
-We have various open source tool avilable since a decade but before that it was just a though to automate the ASIC design flow.
+We have various open source tool avilable since a decade but before that it was just a dream to automate the ASIC design flow.
 For RTL we have - github.com etc
 For EDA tools we have - OpenROAD, openLANE etc.
 ![image](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/a602c6cb-2c0d-4853-a635-5ead6a835bdb)
-PDK : 
+PDK : Process design kit act as an interface between FAB and the engineers, it greatly emerged after the introduction of structured design methodology for ASIC i.e Lambda rules, This PDK have versions of specifications which which was part of non disclosure agreement of companies, this made the designing of chip very difficult.
+
+Today, with the introduction of Google and Skywater collaboration for FOSS 130nm Prodcution PDK we now have an opensource PDK to complete the Digital ASIC Design via open source.
+ Altough it has some limitations and technology oldage.
  ![image](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/db047c1d-eb92-4a5b-a92d-4eb78488ed06)
+ Market share of 130nm Process is 6%.
+ 
 ![image](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/85c673d9-e03f-4bbb-a8d4-7344051846ba)
+
+we have 130nm Process implemented in Intel Pentium-4. 3.46GHz
+![image](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/8f51d5aa-b0e4-442c-bddf-fcd64ba596bc)
+The Methodology of ASIC design is implemted with FLow objective: RTl to GDSII implementation also called as Physical Design Implementation.
+
 
     
 
