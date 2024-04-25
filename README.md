@@ -132,9 +132,9 @@ Today, with the introduction of Google and Skywater collaboration for FOSS 130nm
  
 ![image](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/85c673d9-e03f-4bbb-a8d4-7344051846ba)
 
-we have 130nm Process implemented in Intel Pentium-4. 3.46GHz
+we have 130nm Process implemented in Intel Pentium-4. 3.46GHz Processor and RV32i single cycle CPU.
 ![image](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/8f51d5aa-b0e4-442c-bddf-fcd64ba596bc)
-The Methodology of ASIC design is implemted with FLow objective: RTl to GDSII implementation also called as Physical Design Implementation.
+The Methodology of ASIC design is implemted with FLow objective: RTL to GDSII implementation also called as Physical Design Implementation.
 
 
     
