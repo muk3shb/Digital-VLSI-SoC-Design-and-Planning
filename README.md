@@ -136,6 +136,14 @@ we have 130nm Process implemented in Intel Pentium-4. 3.46GHz Processor and RV32
 ![image](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/8f51d5aa-b0e4-442c-bddf-fcd64ba596bc)
 The Methodology of ASIC design is implemted with FLow objective: RTL to GDSII implementation also called as Physical Design Implementation.
 
+# SKY_L2 - Simplified RTL2GDS flow
+contents here..
+
+# SKY130 Day 2 - Good floorplan vs bad floorplan and introduction to library cells
+# SKY130_D2_SK1 - Chip Floor planning considerations
+# SKY_L2 - Utilization factor and aspect ratio
+![image](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/0c0f8479-6983-4acc-8123-636b75339caf)
+
 
     
 
