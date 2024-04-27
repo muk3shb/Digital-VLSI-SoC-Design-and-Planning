@@ -175,13 +175,13 @@ If we look into wafer we have die which surrounds the core,
 ![IMG_0739](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/a5d940bc-1b6f-4aa4-82fb-aa9979eb8745)
 we put our digital block inside the core and we will calculate utilization fator and aspect ratio.
 ![IMG_0743](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/28ab9665-9796-4cb6-a73f-1055caf49860)
-Utilization factor is givien by Area occupied by netlist / Total area of core, the picture depits the ellaboration of both.
-![IMG_0744](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/8d22953a-d616-45b4-a749-80af1220e4f4)
+1. Utilization factor = Area occupied by netlist / Total area of core
+2.  the picture depits the ellaboration of both.
 ![IMG_0745](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/b85f01de-b997-42d4-9081-5cd6d0f22b16)
-![IMG_0745](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/668e0068-31ec-4324-aae3-407075d58170)
- if we put in dimensions, the utilization factor is 100% i.e 1, we cannot put any extra cell in this case, practically we go for 0.5 or 0.6 utilization factor, 
+![IMG_0744](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/8d22953a-d616-45b4-a749-80af1220e4f4)
+ if we put in dimensions, the utilization factor is 100%  i.e 1, we cannot put any extra cell in this case, practically we go for 0.5 or 0.6 utilization factor, 
 
- Aspect ratio = height / width = 2 sq. unit/ 2 sq. units = 1 unit
+ 1. Aspect ratio = height / width = 2 sq. unit/ 2 sq. units = 1 unit
 
  whenever Aspect ratio is = 1 it signifies it is square shape other than 1 signifies rectangla shape
 ![IMG_0747](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/7bb1e7ec-7519-42bb-9673-62c6adf42fac)
