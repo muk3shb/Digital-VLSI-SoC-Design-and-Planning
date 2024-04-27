@@ -141,7 +141,7 @@ contents here..
 
 # SKY130 Day 2 - Good floorplan vs bad floorplan and introduction to library cells
 # SKY130_D2_SK1 - Chip Floor planning considerations
-# SKY_L2 - Utilization factor and aspect ratio
+# SKY_L1 - Utilization factor and aspect ratio
 ![image](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/0c0f8479-6983-4acc-8123-636b75339caf)
 
 We wil start with basic netlist, we will begin with 2 flip flops 
