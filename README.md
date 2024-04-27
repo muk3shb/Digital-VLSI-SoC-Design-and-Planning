@@ -144,60 +144,81 @@ contents here..
 # SKY_L2 - Utilization factor and aspect ratio
 ![image](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/0c0f8479-6983-4acc-8123-636b75339caf)
 
-![IMG_0731](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/422a6256-c05c-405f-9a08-bdf7fc4ee285)
+We wil start with basic netlist, we will begin with 2 flip flops 
+ 1. Launch and
+ 2. Capture
+  we have simple combinational logic between them, our netlist will have only this logic for our example, to identify the width of core and die.
 ![IMG_0732](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/471fa66d-b2c5-41db-9484-78cb51709585)
-![IMG_0734](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/f5b4ad70-01f8-4a24-8c2b-581aa9c1529c)
-![IMG_0735](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/04782337-a4a9-421e-b9c9-07f32faf767c)
 
+We have Following Combinationallogic elements,
+ 
+ A1 - AND gate,01 - OR gate - class of standard cell.
+ while,
+ FF1 and FF2 - class of registers.
+
+
+![IMG_0733](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/70e3c303-4e2b-41ce-b274-3b3f8eb9b7de)
+THis is the netlist which define connectivity between all components
+
+![IMG_0734](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/f5b4ad70-01f8-4a24-8c2b-581aa9c1529c)
+TO determne the dimension of chip we need to determine dimension of logic gates, so we are dependent on the dimension of AND,OR and flip flops, we provide proper length and breadth to the gates.
+
+
+![IMG_0735](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/04782337-a4a9-421e-b9c9-07f32faf767c)
+we have launch block, AND gate and OR gate in particular dimensions.
+ 
 ![IMG_0736](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/c0331f30-83d8-4388-a0f4-9bf01d007b62)
-![IMG_0737](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/b13739c3-dfd3-4a0d-a956-55c7ce4f634d)
+Dimension of core and die is given by dimension of standard cell, here we are giving rough dimension of 1 unit, we calculate the dimensionof core by eliminating the wires and by doing this we determine the area occupied by the core.
+now, when we put the chip on silicon wafer with help of this dimension, we will determine the area occupied.
+ we remove wires and club all of them, now we calculate area, L = 2 units, Breadth = 2units , area = L x B = 4sq. unit
+ lets look into core and dies
 
 ![IMG_0738](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/63087efc-998d-4ddb-b4e0-b2c7b64467d8)
-
+we implent this die multiple times in silicon wafer to increase throughtput
+If we look into wafer we have die which surrounds the core,
 ![IMG_0739](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/a5d940bc-1b6f-4aa4-82fb-aa9979eb8745)
-
-![IMG_0750](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/3a6f72b3-0423-4e7a-a08a-e975ce9c0f5c)
+we put our digital block inside the core and we will calculate utilization fator and aspect ratio.
 ![IMG_0743](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/28ab9665-9796-4cb6-a73f-1055caf49860)
-
+Utilization factor is givien by Area occupied by netlist / Total area of core, the picture depits the ellaboration of both.
 ![IMG_0744](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/8d22953a-d616-45b4-a749-80af1220e4f4)
 ![IMG_0745](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/b85f01de-b997-42d4-9081-5cd6d0f22b16)
 ![IMG_0745](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/668e0068-31ec-4324-aae3-407075d58170)
-![IMG_0749](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/660eb062-5f8d-429a-adc0-f3332546cd21)
+ if we put in dimensions, the utilization factor is 100% i.e 1, we cannot put any extra cell in this case, practically we go for 0.5 or 0.6 utilization factor, 
 
-
-![IMG_0750](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/1022255f-e203-412d-99bd-85986324ca2d)
-![IMG_0751](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/1691fea9-7ac4-4d79-b9fe-5b645c5dfd8d)
-![IMG_0751](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/7ab2abf6-432e-41c8-b935-4b2bd2741eb9)
-![IMG_0751](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/14937cba-48cb-49ae-af51-2de6f5899b7e)
-
-
-
-
-
- We willstart with basic netlist, we will begin with 2 flip flops the ;aunch and capture and we have simple combinational logic between them, our netlist will have onlt this logic for example, 
- to identify the width of core and die.
-
- A1 - AND gate
- 01 - OR gate
- They fall under class of standard cell. while,
- FF1 and FF2 fall under class of registers.
-
-THis is the netlist which define connectivity between all components
-
-TO determne the dimension of chip we need to determine dimension of logic gates, so we are dependent onthe dimension of logic gates and,or and flip flops, we provide proper length and breadth to the gates,
-we have launch block, and gate and or gate in particular dimensions
- dimension of core die - dimension of standard cel - giving rough dimension,
-
- descrioption ofimage
- with help of this dimension, we will determine the area occupied
- we remove wires and club all of them, now we calculate area, l -2, b -2 , area - 4sq unit
- lets look into core and dies
-
- we implent this die multiple times in silicon wafer to increase throughtput
- if we put in dimension utilization factor in 100% i.e 1, we cannot put any extra cell in this case, practically we go for 0.5 or 0.6 utilization factor, 
- Aspect ratio = height / width = 2/ 2 = 1
+ Aspect ratio = height / width = 2 sq. unit/ 2 sq. units = 1 unit
 
  whenever Aspect ratio is = 1 it signifies it is square shape other than 1 signifies rectangla shape
+![IMG_0747](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/7bb1e7ec-7519-42bb-9673-62c6adf42fac)
+
+
+Example-2 - here we take dies of double in length but same height.
+
+![IMG_0749](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/660eb062-5f8d-429a-adc0-f3332546cd21)
+Now we will put core in this dimension.
+
+![IMG_0750](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/1022255f-e203-412d-99bd-85986324ca2d)
+Next, we calculate the utilization factor and Aspect ratio.
+![IMG_0751](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/1691fea9-7ac4-4d79-b9fe-5b645c5dfd8d)
+
+![IMG_0753](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/f7015fa8-7dae-43be-ace6-e522c86f50d8)
+ we get the Utilization factor = 0.5 units and Aspect ratio as 0.5 units.
+
+ # SKY_L2 - Concept of Pre-place cells
+
+ 
+
+
+
+
+ 
+
+ 
+
+ descrioption ofimage
+
+
+
+
 
  Example - 2
  
