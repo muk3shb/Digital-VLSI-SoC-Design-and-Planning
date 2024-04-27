@@ -211,7 +211,6 @@ Given,
 
 next we will place the core inside die. 
 ![IMG_0781](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/561ffe71-7072-41d3-94cf-8b6c5969787f)
-![IMG_0781](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/85082b52-f9d3-4a42-810d-04f4973afe51)
 ![IMG_0782](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/267875c2-00e9-49be-bf5f-5e4319e50960)
 
 we calculate the utilization factor as = 4 sq.units/ 16 sq. units.
@@ -220,8 +219,9 @@ we calculate the utilization factor as = 4 sq.units/ 16 sq. units.
  for that we have Height = 4 sq. units/ Width = 4 sq. units.
  ![IMG_0782](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/e7519245-1fd1-43c8-b341-54a23f2d3bfd)
  we get 1 as Aspect ratio which signifies that our core is square in shape.
+![IMG_0782](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/fc6ee8a7-61e8-4fd6-a218-764e28702038)
 
- Next, we will Calculate # Pre-placed Cell
+ Next, we will Define Location of Pre-placed Cell
 
 
  
