@@ -152,16 +152,12 @@ We wil start with basic netlist, we will begin with 2 flip flops
 
 We have Following Combinationallogic elements,
  
- A1 - AND gate,01 - OR gate - class of standard cell.
- while,
- FF1 and FF2 - class of registers.
+ 1. A1 - AND gate,01 - OR gate - class of standard cell.
+ 2. FF1 and FF2 - class of registers.
 
 
 ![IMG_0733](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/70e3c303-4e2b-41ce-b274-3b3f8eb9b7de)
-THis is the netlist which define connectivity between all components
-
-![IMG_0734](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/f5b4ad70-01f8-4a24-8c2b-581aa9c1529c)
-TO determne the dimension of chip we need to determine dimension of logic gates, so we are dependent on the dimension of AND,OR and flip flops, we provide proper length and breadth to the gates.
+This is the netlist which define connectivity between all components, To determne the dimension of chip we need to determine dimension of logic gates, so we are dependent on the dimension of AND,OR and flip flops, we provide proper length and breadth to the gates.
 
 
 ![IMG_0735](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/04782337-a4a9-421e-b9c9-07f32faf767c)
