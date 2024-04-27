@@ -200,26 +200,30 @@ Next, we calculate the utilization factor and Aspect ratio.
  we get the Utilization factor = 0.5 units and Aspect ratio as 0.5 units.
 
  # SKY_L2 - Concept of Pre-place cells
+Example-3 
 
- 
+Given, 
+1. core height - 4 units,
+2. core width - 4 units,
+   we will calculate Utilization factor and Aspect ration.
+   
+![IMG_0779](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/4d70596a-5d03-49f1-a124-5c4328bdc3bf)
+
+next we will place the core inside die. 
+![IMG_0781](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/561ffe71-7072-41d3-94cf-8b6c5969787f)
+![IMG_0781](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/85082b52-f9d3-4a42-810d-04f4973afe51)
+![IMG_0782](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/267875c2-00e9-49be-bf5f-5e4319e50960)
+
+we calculate the utilization factor as = 4 sq.units/ 16 sq. units.
+ we get 0.25 as utilisation factor.
+ Next we will calculate the Aspect ratio, 
+ for that we have Height = 4 sq. units/ Width = 4 sq. units.
+ ![IMG_0782](https://github.com/muk3shb/Digital-VLSI-SoC-Design-and-Planning/assets/71267630/e7519245-1fd1-43c8-b341-54a23f2d3bfd)
+ we get 1 as Aspect ratio which signifies that our core is square in shape.
+
+ Next, we will Calculate # Pre-placed Cell
 
 
-
-
- 
-
- 
-
- descrioption ofimage
-
-
-
-
-
- Example - 2
- 
-
- 
  
 
 
